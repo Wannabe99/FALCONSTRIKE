@@ -1,5 +1,5 @@
 # FalconZero
 
 <p align="center">
-  <img src="FALCONZERO.png"/>
+  <img src="FALCONZERO.png">
 </p>
