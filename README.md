@@ -1,5 +1,5 @@
 # FalconZero
 
 <p align="center">
-  <img src="FALCONZERO.png">
+  <img width="600" height="200" src="FALCONZERO.png">
 </p>
