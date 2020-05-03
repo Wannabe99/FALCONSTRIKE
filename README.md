@@ -1,6 +1,5 @@
 # FalconZero
 
 <p align="center">
-  <img width="460" height="300" src="FALCONSTRIKE.png">
+  <img src="FALCONZERO.png" alt="Project Logo"/>
 </p>
-
