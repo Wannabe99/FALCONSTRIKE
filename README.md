@@ -1,4 +1,4 @@
-# FALCONSTRIKE
+# FalconZero
 
 <p align="center">
   <img src="FALCONSTRIKE.png">
