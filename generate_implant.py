@@ -126,6 +126,8 @@ def build_exe():
 	print("\n")
 	print(colored("[+] Attempting to build the executable now... ", "yellow"))
 	print("\n")
+	if not os.path.isdir('./bin'):
+		os.mkdir('./bin/')
 	if arch == 'i686':
 		build_id = randomString()
 		os.system("i686-w64-mingw32-g++ ./source/falcon_zero.cpp ./source/fetcher.cpp ./source/converter.cpp ./source/injector.cpp ./source/xor.cpp ./source/safety_measures.cpp -o ./bin/falcon_zero32_" + build_id + ".exe -lurlmon -lntdll -mwindows -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc")
