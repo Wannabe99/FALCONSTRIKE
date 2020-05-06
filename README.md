@@ -7,6 +7,14 @@ Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader for delivering
   <img src="FALCONSTRIKE.png">
 </p>
 
+## Features
+- [X] Dynamic shellcode execution
+- [X] Usage of Github as the payload storage area - the payload is fetched from Gthub
+- [X] Targeted implant Loader - only execute on targeted assets - thwart automated malware analysis hinder reverse engineering
+- [X] Killdates - implant expires after a specific date
+- [X] Stealthy shellcode injection technique without allocating RWX mempry pages in host process to evade AV/EDRs
+- [X] Sensitive strings encrypted using XOR
+
 ## Usage
 There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been created to make your life a breeze.
 The process is as simple as:
@@ -34,7 +42,7 @@ Some of them are:
 Feel free to communicate any further feature that you want to see in the next release. Suggestions for improving existing features are also warmly welcome :)
 
 ## Read more
-[![](https://img.shields.io/badge/FalconZero-E5A505?style=flat-square)](https://slaeryan.github.io/posts/falcon_zero_alpha.html)
+[![](https://img.shields.io/badge/FalconZero-E5A505?style=flat-square)](https://slaeryan.github.io/posts/falcon-zero-alpha.html)
 
 ## Author
 Upayan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https://slaeryan.github.io)]
