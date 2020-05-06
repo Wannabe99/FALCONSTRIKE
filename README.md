@@ -1,5 +1,5 @@
 # FalconZero
-[![](https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-CPython3-E5A505?style=flat-square)]()
+[![](https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-C%20%2f%20Python3-E5A505?style=flat-square)]()
 
 <p align="center">
   <img src="FALCONSTRIKE.png">
