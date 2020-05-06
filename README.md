@@ -6,7 +6,7 @@
 </p>
 
 ## Usage
-There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been made to make your life a breeze.
+There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been created to make your life a breeze.
 The process is as simple as:
 ```
 git clone https://github.com/slaeryan/FALCONSTRIKE.git
@@ -14,6 +14,10 @@ cd FALCONSTRIKE
 pip3 install -r requirements.txt
 python3 generate_implant.py
 ```
+Follow the on-screen instructions and you'll find the output in `bin` directory if everything goes well.
+
+## AV Scan of _FalconZero_ implant
+![FalconZero v1.0 Antiscan Result](falcon_zero_antiscan.png "FalconZero v1.0 Antiscan Result")
 
 ## TO-DO
 This is an alpha release version and depending on the response many more upgrades to existing functionalities are coming soon.
