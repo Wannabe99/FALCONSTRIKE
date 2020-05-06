@@ -15,6 +15,9 @@ Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader for delivering
 - [X] Stealthy shellcode injection technique without allocating RWX memory pages in victim process to evade AV/EDRs - currently injects to `explorer.exe`
 - [X] Sensitive strings encrypted using XOR
 
+## Demo
+![GIF demo](demo.gif)
+
 ## Usage
 There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been created to make your life a breeze.
 The process is as simple as:
