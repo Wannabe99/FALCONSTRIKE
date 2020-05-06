@@ -1,11 +1,12 @@
 # FalconZero
+https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square
 
 <p align="center">
   <img src="FALCONSTRIKE.png">
 </p>
 
-## How to use it
-```hta
+## Usage
+```
 git clone https://github.com/slaeryan/FALCONSTRIKE.git
 cd FALCONSTRIKE
 pip3 install -r requirements.txt
