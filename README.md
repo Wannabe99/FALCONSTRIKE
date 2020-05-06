@@ -26,15 +26,19 @@ This is an alpha release version and depending on the response many more upgrade
 
 Some of them are:
 
-1. Integrate various Sandbox detection algorithms.
-1. Integrate support for more stealthy shellcode injection techniques.
-1. Integrate function obfuscation to make it stealthier.
-1. Include a network component to callback to a C2 when a Stage-2 payload is released or to change targets/payloads and other options on-the-fly etc.
+-[] Integrate various Sandbox detection algorithms
+-[] Integrate support for more stealthy shellcode injection techniques
+-[] Integrate function obfuscation to make it stealthier
+-[] Include a network component to callback to a C2 when a Stage-2 payload is released or to change targets/payloads and other options on-the-fly etc.
 
 Feel free to communicate any further feature that you want to see in the next release. Suggestions for improving existing features are also warmly welcome :)
 
 ## Author
-slaeryan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https://slaeryan.github.io)]
+Upayan ([@slaeryan](https://twitter.com/slaeryan)) [[slaeryan.github.io](https://slaeryan.github.io)]
 
 ## License
 All the code included in this project is licensed under the terms of the GNU AGPLv3 license.
+
+#
+
+[![](https://img.shields.io/badge/slaeryan.github.io-E5A505?style=flat-square)](https://slaeryan.github.io) [![](https://img.shields.io/badge/twitter-@slaeryan-00aced?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/slaeryan) [![](https://img.shields.io/badge/linkedin-@UpayanSaha-0084b4?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/upayan-saha-404881192/)
