@@ -24,3 +24,7 @@ Some of them are:
 1. Include a network component to callback to a C2 when a Stage-2 payload is released or to change targets/payloads and other options on-the-fly etc.
 
 Feel free to communicate any further feature that you want to see in the next release. Suggestions for improving existing features are also warmly welcome :)
+
+License
+--------
+All the code included in this project is licensed under the terms of the GNU AGPLv3 license.
