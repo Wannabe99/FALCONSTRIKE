@@ -1,5 +1,5 @@
 # FalconZero
-[![](https://img.shields.io/badge/Category-Defense%20Evasion-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-C%20%2f%20Python3-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square)]()
+[![](https://img.shields.io/badge/Category-Defense%20Evasion-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-C%20%2f%20C++%20%2f%20Python3-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square)]()
 
 Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader for delivering second-stage payloads(shellcode) to the host machine undetected - first public release version Loader/Dropper of the FALCONSTRIKE project
 
@@ -19,6 +19,8 @@ Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader for delivering
 There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been created to make your life a breeze.
 The process is as simple as:
 ```
+First generate your shellcode as a hex string
+Upload it on Github and copy the Github raw URL
 git clone https://github.com/slaeryan/FALCONSTRIKE.git
 cd FALCONSTRIKE
 pip3 install -r requirements.txt
