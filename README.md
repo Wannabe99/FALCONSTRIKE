@@ -26,7 +26,7 @@ Some of them are:
 Feel free to communicate any further feature that you want to see in the next release. Suggestions for improving existing features are also warmly welcome :)
 
 ## Author
-slaeryan([@slaeryan])(https://twitter.com/slaeryan)
+slaeryan([@slaeryan](https://twitter.com/slaeryan))
 
 ## License
 All the code included in this project is licensed under the terms of the GNU AGPLv3 license.
