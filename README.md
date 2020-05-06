@@ -1,7 +1,7 @@
 # FalconZero
 [![](https://img.shields.io/badge/Version-1.0-E5A505?style=flat-square)]() [![](https://img.shields.io/badge/Language-C%20%2f%20Python3-E5A505?style=flat-square)]()
 
-Introducing FalconZero v1.0 - a stealthy, targeted Windows implant for delivering second-stage payloads(shellcode) to the host machine undetected.
+Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader implant for delivering second-stage payloads(shellcode) to the host machine undetected.
 
 <p align="center">
   <img src="FALCONSTRIKE.png">
