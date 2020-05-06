@@ -6,6 +6,8 @@
 </p>
 
 ## Usage
+There are many hard things in life but generating an implant shouldn't be one. This is the reason the `generate_implant.py` script has been made to make your life a breeze.
+The process is as simple as:
 ```
 git clone https://github.com/slaeryan/FALCONSTRIKE.git
 cd FALCONSTRIKE
