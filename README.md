@@ -9,10 +9,10 @@ Introducing FalconZero v1.0 - a stealthy, targeted Windows Loader for delivering
 
 ## Features
 - [X] Dynamic shellcode execution
-- [X] Usage of Github as the payload storage area - the payload is fetched from Gthub
-- [X] Targeted implant Loader - only execute on targeted assets - thwart automated malware analysis hinder reverse engineering
+- [X] Usage of Github as the payload storage area - the payload is fetched from Github
+- [X] Targeted implant Loader - only execute on targeted assets - thwart automated malware analysis and hinder reverse engineering on non-targeted assets
 - [X] Killdates - implant expires after a specific date
-- [X] Stealthy shellcode injection technique without allocating RWX mempry pages in host process to evade AV/EDRs
+- [X] Stealthy shellcode injection technique without allocating RWX memory pages in victim process to evade AV/EDRs - currently injects to `explorer.exe`
 - [X] Sensitive strings encrypted using XOR
 
 ## Usage
@@ -37,7 +37,9 @@ Some of them are:
 - [ ] Integrate various Sandbox detection algorithms
 - [ ] Integrate support for more stealthy shellcode injection techniques
 - [ ] Integrate function obfuscation to make it stealthier
-- [ ] Include a network component to callback to a C2 when a Stage-2 payload is released or to change targets/payloads and other options on-the-fly etc.
+- [ ] Include a network component to callback to a C2 when a Stage-2 payload is released or to change targets/payloads and configure other options on-the-fly
+- [ ] Inject to a remote process from where network activity is not unusual for fetching the shellcode - better OPSEC
+- [ ] Include active hours functionality - Loader becomes active during a specified period of day etc.
 
 Feel free to communicate any further feature that you want to see in the next release. Suggestions for improving existing features are also warmly welcome :)
 
