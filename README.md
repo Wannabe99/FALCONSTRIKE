@@ -21,6 +21,8 @@ The process is as simple as:
 ```
 First generate your shellcode as a hex string
 Upload it on Github and copy the Github raw URL
+For testing(MessageBox shellcode): https://raw.githubusercontent.com/slaeryan/DigitalOceanTest/master/messagebox_shellcode_hex_32.txt
+git clone https://github.com/slaeryan/FALCONSTRIKE.git
 git clone https://github.com/slaeryan/FALCONSTRIKE.git
 cd FALCONSTRIKE
 pip3 install -r requirements.txt
